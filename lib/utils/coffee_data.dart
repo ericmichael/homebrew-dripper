@@ -12,10 +12,10 @@ CoffeeRecipe makeSweetMariasRecipe() {
   CoffeeRecipe recipe = CoffeeRecipe(
       "Sweet Maria's",
       22,
-      "finely ground coffee",
       360,
-      steps,
-      "The original recipe: makes one delicious cup");
+      "finely ground coffee",
+      "The original recipe: makes one delicious cup",
+      steps);
   return recipe;
 }
 
@@ -27,8 +27,13 @@ CoffeeRecipe makeTestRecipe() {
     RecipeStep("Cover and wait", 5),
     RecipeStep("Stir", 5),
   ];
-  CoffeeRecipe recipe = CoffeeRecipe("Test Recipe", 22, "finely ground coffee",
-      360, steps, "The original recipe: makes one delicious cup");
+  CoffeeRecipe recipe = CoffeeRecipe(
+      "Test Recipe",
+      22,
+      360,
+      "finely ground coffee",
+      "The original recipe: makes one delicious cup",
+      steps);
   return recipe;
 }
 

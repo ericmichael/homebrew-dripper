@@ -8,7 +8,7 @@ class CoffeeRecipe {
   String miscDetails;
   List<RecipeStep> steps;
 
-  CoffeeRecipe(name, coffeeVolumeGrams, waterVolumeGrames, grindSize,
+  CoffeeRecipe(name, coffeeVolumeGrams, waterVolumeGrams, grindSize,
       miscDetails, steps) {
     //add any rules to reject invalid values
     //for example, reject negative gram amounts
