@@ -43,6 +43,8 @@ android {
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        manifestPlaceholders = [appAuthRedirectScheme: "com.example.homebrew", 
+                                    applicationName: "com.example.homebrew.Application"]
     }
 
     buildTypes {
